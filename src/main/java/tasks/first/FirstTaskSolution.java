@@ -50,6 +50,9 @@ public class FirstTaskSolution implements FirstTask {
                 } else return false;
             }
         }
+        if (!stack.isEmpty()){
+            return false;
+        }
         return true;
     }
 
